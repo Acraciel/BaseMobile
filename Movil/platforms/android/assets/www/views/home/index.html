@@ -1,0 +1,34 @@
+<ion-view title="Inicio" class="home">
+    <!-- LOADING -->
+    <flex-loading ng-if="!dashboard" title="Cargando Resumen..." legend="">
+    </flex-loading>
+    <!-- CONTENT -->
+    <div ng-if="dashboard">
+        <ion-content>
+            <button class="button button-block button-calm" ng-click="">
+                <span>COTIZAR</span>
+            </button>
+            <button class="button button-block button-balanced" ng-click="">
+                <span>EMITIR</span>
+            </button>
+            <button class="button button-block button-energized" ng-click="">
+                <span>CONSULTAR</span>
+            </button>
+            <button class="button button-block button-assertive" ng-click="">
+                <span>BASE CLIENTES</span>
+            </button>
+            <button class="button button-block button-stable" ng-click="">
+                <span>MI EJECUTIVO</span>
+            </button>
+        </ion-content>
+        <!-- FOOTER -->
+        <ion-footer-bar>
+            <!--
+            <button class="button button-block" ng-click="create();">
+                <i class="icon ion-android-stopwatch"></i>
+                <span>Iniciar Sesión</span>
+            </button>
+            -->
+        </ion-footer-bar>
+    </div>
+</ion-view>

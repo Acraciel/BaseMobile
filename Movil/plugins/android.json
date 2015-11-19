@@ -1,0 +1,42 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "com.ionic.keyboard": {
+            "PACKAGE_NAME": "com.vlabs.motoapp"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.vlabs.motoapp"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.vlabs.motoapp"
+        },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "com.vlabs.motoapp"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.vlabs.motoapp"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.vlabs.motoapp"
+        },
+        "de.appplant.cordova.plugin.background-mode": {
+            "PACKAGE_NAME": "com.vlabs.motoapp"
+        },
+        "org.apache.cordova.camera": {
+            "PACKAGE_NAME": "com.vlabs.motoapp"
+        },
+        "org.apache.cordova.dialogs": {
+            "PACKAGE_NAME": "com.vlabs.motoapp"
+        },
+        "org.apache.cordova.statusbar": {
+            "PACKAGE_NAME": "com.vlabs.motoapp"
+        }
+    },
+    "dependent_plugins": {}
+}

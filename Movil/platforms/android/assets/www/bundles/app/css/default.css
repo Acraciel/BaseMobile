@@ -1,0 +1,71 @@
+[md-theme='imoto'] ion-side-menu ion-content .profile-bubble {
+      margin-top: 44px;
+      padding-bottom: 1.5em; }
+      [md-theme='imoto'] ion-side-menu ion-content .profile-bubble div.marker {
+        width: 7.5em;
+        height: 7.5em; }
+        [md-theme='imoto'] ion-side-menu ion-content .profile-bubble div.marker > div.halo {
+          border-radius: 50%;
+          border: 1px solid #c0c1c2;
+          width: 100%;
+          height: 100%;
+          padding: 5%; }
+          [md-theme='imoto'] ion-side-menu ion-content .profile-bubble div.marker > div.halo > div {
+            border-radius: 50%;
+            overflow: hidden;
+            height: 100%;
+            width: 100%;
+            background: #1c1c29; }
+            [md-theme='imoto'] ion-side-menu ion-content .profile-bubble div.marker > div.halo > div > img {
+              width: 100%; }
+      [md-theme='imoto'] ion-side-menu ion-content .profile-bubble div.name {
+        padding-top: 0.5em; }
+      [md-theme='imoto'] ion-side-menu ion-content .profile-bubble div.description {
+        color: #270; }
+
+
+
+
+        [md-theme='imoto'] ion-view.pane.profile {
+      /*
+          CLOSE SESSION
+      */
+      /*
+          AVERAGE DISTANCE 
+      */ }
+      [md-theme='imoto'] ion-view.pane.profile div.stats {
+        padding-top: 1em;
+        /*
+            TWITTER LIKE
+        */ }
+        [md-theme='imoto'] ion-view.pane.profile div.stats .profile-bubble {
+          padding-bottom: 0.5em; }
+          [md-theme='imoto'] ion-view.pane.profile div.stats .profile-bubble div.marker {
+            width: 7em;
+            height: 7em; }
+            [md-theme='imoto'] ion-view.pane.profile div.stats .profile-bubble div.marker > div.halo {
+              border-radius: 50%;
+              border: 1px solid #c0c1c2;
+              width: 100%;
+              height: 100%;
+              padding: 5%; }
+              [md-theme='imoto'] ion-view.pane.profile div.stats .profile-bubble div.marker > div.halo > div {
+                border-radius: 50%;
+                overflow: hidden;
+                height: 100%;
+                width: 100%;
+                background: #1c1c29; }
+                [md-theme='imoto'] ion-view.pane.profile div.stats .profile-bubble div.marker > div.halo > div > img {
+                  width: 100%; }
+        [md-theme='imoto'] ion-view.pane.profile div.stats .name {
+          font-size: 1.2em;
+          padding-left: 0.6em;
+          padding-bottom: 5px; }
+        [md-theme='imoto'] ion-view.pane.profile div.stats .rol {
+          font-size: 1.2em;          
+          padding-left: 0.6em;
+          padding-bottom: 5px; }
+        [md-theme='imoto'] ion-view.pane.profile div.stats .email {
+          padding-left: 0.8em; }
+        
+/*# sourceMappingURL=default.css.map */

@@ -1,0 +1,59 @@
+<ion-view title="Perfil" class="profile">
+    <!-- LOADING -->
+    <flex-loading ng-if="!profile" title="Recopilando Información..." legend="Obteniendo datos...">
+    </flex-loading>
+    <!-- CONTENT -->
+    <div ng-if="profile">
+        <ion-content>
+            <!-- HEADER PROFILE -->
+            <div class="stats">
+                <div class="row">
+                    <div class="col col-33">
+                        <!-- BUBBLE -->
+                        <div class="profile-bubble">
+                            <div class="marker">
+                                <div class="halo">
+                                    <div>
+                                        <img ng-src="{{profile.image}}" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col no-padding">
+                        <!-- STATS -->
+                        <div class="row no-padding">
+                            <div class="col no-padding">
+                                <div class="name">
+                                    {{ profile.name }}
+                                </div>
+                                <div class="rol">
+                                    {{ profile.rol }}
+                                </div>
+                                <div class="email">
+                                    {{ profile.email }}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- INFO -->
+            <div class="row">
+                <div class="col">
+                    Dirección
+                </div>
+                <div class="col col-33">
+                    {{ profile.direccion}}
+                </div>
+            </div>
+        </ion-content>
+        <ion-footer-bar>
+            <!-- CLOSE SESSION -->
+            <button class="close-session button button-block" ng-click="logOut();">
+                <i class="icon ion-ios-undo"></i>
+                <span>Cerrar Sesión</span>
+            </button>
+        </ion-footer-bar>
+    </div>
+</ion-view>

@@ -1,0 +1,7 @@
+{
+  "name": "MobilBase",
+  "app_id": "",
+  "gulpStartupTasks": [
+    "inject"
+  ]
+}
