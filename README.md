@@ -28,6 +28,5 @@ ionic serve
 
 - [Angular Gale Doc's](http://angular-gale.azurewebsites.net/)
 - [Framework API](http://gale.azurewebsites.net/)
-- [Grupo Valentys](http://www.valentys.com)
 
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
